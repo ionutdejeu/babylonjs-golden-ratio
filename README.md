@@ -1,2 +1,2 @@
-# babylonjs-golden-ration
-Simple Instantiate multiple object as golden ration with babylonjs typescript 
+# babylonjs-golden-ratio
+Simple Instantiate multiple object as golden ratio with babylonjs typescript 
