@@ -56,11 +56,11 @@ export const createArcRotateCamera = () => {
     camera.panningOriginTarget = Vector3.Zero() // where does the panning distance limit originate from
     camera.panningDistanceLimit = 100 // how far can you pan from the origin
     
-    camera.allowUpsideDown = false // don't allow zooming inverted
+    camera.allowUpsideDown = true // don't allow zooming inverted
     camera.lowerRadiusLimit = 2 // how close can you zoom
     camera.upperRadiusLimit = 100 // how far out can you zoom
-    camera.lowerBetaLimit = 0.5 // how high can you move the camera
-    camera.upperBetaLimit = 1.4 // how low down can you move the camera
+    //camera.lowerBetaLimit = 0.4 // how high can you move the camera
+    //camera.upperBetaLimit = 1.4 // how low down can you move the camera
     
     camera.checkCollisions = true // make the camera collide with meshes
     camera.collisionRadius = new Vector3(2, 2, 2) // how close can the camera go to other meshes
